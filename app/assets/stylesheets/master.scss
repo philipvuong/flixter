@@ -1,0 +1,18 @@
+@import "bootstrap";
+@import url('https://fonts.googleapis.com/css?family=Dosis:800');
+
+
+.navbar {
+  background: image_url('topography.png');
+  font-family: 'Dosis', sans-serif;
+  box-shadow: 1px 1px 5px 1px #ccc;
+  margin-bottom: 0;
+  
+}
+
+.navbar-inverse a.navbar-brand {
+  color: #2bc23f;
+  font-family: 'Dosis', sans-serif;
+  letter-spacing: 0.5px;
+  font-size: 30px;
+}
