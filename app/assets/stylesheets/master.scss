@@ -1,11 +1,12 @@
 @import "bootstrap";
 @import url('https://fonts.googleapis.com/css?family=Dosis:800');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:600,700');
 
 
 .navbar {
   background: image_url('topography.png');
   font-family: 'Dosis', sans-serif;
-  box-shadow: 1px 1px 5px 1px #ccc;
+  box-shadow: 1px 1px 1px 1px #ccc;
   margin-bottom: 0;
   
 }
@@ -15,4 +16,48 @@
   font-family: 'Dosis', sans-serif;
   letter-spacing: 0.5px;
   font-size: 30px;
+}
+
+.navbar-toggler-icon {
+  background-color: #cccccc;
+}
+
+/*.navbar-inverse .navbar-nav .nav-link {
+  color: #333;
+}
+*/
+
+.hero {
+  background: image_url('hero.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 370px;
+  box-shadow: 0px 1px 1px #2a2a2a;
+}
+
+h1, h2, h3, h4, h5, h6, .navbar {
+  margin: 0;
+}
+
+.frosty {
+  background: rgba(0, 0, 0, 0.5);
+  color: white;
+}
+
+.frosty h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 100;
+  text-shadow: rgba(0, 0, 0, 0.95) 1px 1px;
+}
+
+.frosty h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 200;
+  text-shadow: rgba(0, 0, 0, 0.95) 1px 1px;
+}
+
+.btn {
+  border-radius: 1;
 }
