@@ -7,8 +7,7 @@
   background: image_url('topography.png');
   font-family: 'Dosis', sans-serif;
   box-shadow: 1px 1px 1px 1px #ccc;
-  margin-bottom: 0;
-  
+  margin-bottom: 0;  
 }
 
 .navbar-inverse a.navbar-brand {
@@ -22,10 +21,9 @@
   background-color: #cccccc;
 }
 
-/*.navbar-inverse .navbar-nav .nav-link {
-  color: #333;
+.nav-link {
+  color: #2bc23f !important;
 }
-*/
 
 .hero {
   background: image_url('hero.jpg') no-repeat center center fixed;
@@ -71,4 +69,18 @@ h1, h2, h3, h4, h5, h6, .navbar {
 body {
   background: image_url('lightpaperfibers.png');
   font-family: "Segoe UI", Candara, "Bitstream Vera Sans", "DejaVu Sans", "Bitstream Vera Sans", "Trebuchet MS", Verdana, "Verdana Ref", sans-serif;
+}
+
+.booyah-box {
+  -moz-box-shadow: 1px 1px 2px 0 #d0d0d0;
+  -webkit-box-shadow: 1px 1px 2px 0 #d0d0d0;
+  box-shadow: 1px 1px 2px 0 #d0d0d0;
+  background: #fff;
+  border: 1px solid #ccc;
+  border-color: #e4e4e4 #bebebd #bebebd #e4e4e4;
+  padding: 10px;
+}
+
+.booyah-box h2, .booyah-box h1 {
+  margin: 10px;
 }
