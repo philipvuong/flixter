@@ -26,7 +26,10 @@
 }
 
 .hero {
-  background: image_url('hero.jpg') no-repeat center center fixed;
+/*  background: image_url('hero.jpg') no-repeat center center fixed;*/
+  background-image: image_url('hero.jpg');
+  background-repeat: no-repeat;
+  background-position: center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -83,4 +86,10 @@ body {
 
 .booyah-box h2, .booyah-box h1 {
   margin: 10px;
+}
+
+.form-check-input {
+  position: absolute;
+  margin-top: 0.25rem;
+  margin-left: 0.25rem; 
 }
