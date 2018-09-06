@@ -1,6 +1,7 @@
 @import "bootstrap";
 @import url('https://fonts.googleapis.com/css?family=Dosis:800');
 @import url('https://fonts.googleapis.com/css?family=Montserrat:600,700');
+@import "font-awesome";
 
 
 .navbar {
@@ -132,4 +133,42 @@ body {
 .lesson a b {
   font-weight: 100;
   font-size: 25px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.section-li {
+  border: 1px solid;
+  border-color: #e4e4e4 #bebebd #bebebd #e4e4e4;
+  padding: 20px;
+  margin: 20px;
+}
+
+ul .header {
+  font-size: 25px;
+}
+
+ul .header .fa {
+  font-size: 20px;
+}
+
+.lessons li {
+  background: #8f9189;
+  color: white;
+  margin: 10px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 100;
+  padding: 8px;
+  font-size: 15px;
+}
+
+.lessons li b {
+  font-size: 25px;
+  font-weight: 100;
+}
+
+.lessons li p {
+  margin: 0;
 }
